@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body,html {
+  width: 100%;
+  height: 1000px;
+}
+
+body {
+  background-image: url(https://avatars.mds.yandex.net/get-zen_doc/1686199/pub_5fc3e3f139eab6574d0d19b9_5fc3e4234c127965dbf45a47/scale_1200);
+  background-blend-mode: multiply;
+  background-color: #0000FF;
+  background-size: contain;
+  font-family: Trebuchet MS; Helvetica;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0.5% 0px 0.5%;
+  background: transparent;
+  float: left;
+  position: fixed;
+  z-index: 3;
+  background: #0000FF;
+
+}
+
+header #logo {
+  color: #fafafa;
+  cursor: pointer;
+}
+
+header #logo span {
+  font-size: 2.5em;
+  line-height: 15px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-bottom: 10px;
+  font-family: 'Otomanopee One', serif;
+  border-bottom: 3px solid #FFFF00;
+}
+
+@media (min-width: 701px) {
+  #logo {
+    float: left;
+    width: 30%;
+    font-size: 1.1em;
+  }
+
+#about {
+  float: right;
+  width: 67%;
+}
+
+}
+
+
+@media (max-width: 700px) {
+  #logo {
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+    font-size: 1.5em;
+  }
+  #about {
+    float: left;
+    width: 100%;
+  }
+}
+
+#about {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 20px;
+  margin-bottom: 10 px;
+}
+
+#about > a {color: #FF1493	}
+
+#about > a:hover {
+  color: #fff;
+  text-decoration: line-through;
+  text-decoration-color: #FF0000;
+}
+
+#about > a:not(:last-child) {
+  margin-right: 3%;
+}
+
+.fixed {
+  z-index: 5000;
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+header.fixed #logo {
+  color: #DC143C;
+}
+
+.fixed #about a {color: #7FFF00}
+.fixed #about a:hover {color: #7c7c7c}
+
+#top {
+  width: 100%;
+  height: 1000px;
+  background-image: url(https://sun9-70.userapi.com/impg/XYgEVpsu9XFG3_ZkEbTIjZXCGYxXU9e-dfsykw/LQ2DHZVPIhY.jpg?size=1064x1080&quality=96&sign=0b9f0fd5e8378911823b8062a6aeff8b&type=album);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-color: #0000FF;
+  background-position: bottom;
+  padding-bottom: 10%;
+  text-align: center;
+  color: #FF0000;
+  font-size: 3em;
+}
+
+@media (min-width: 1001px) {
+  #top {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 1000px) and (min-width 651px) {
+  #top {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 650px)  {
+  #top {
+    font-size: 1.2em;
+    padding-top: 50%;
+  }
+}
+
+#top h1 {
+  padding-top: 17%;
+  font-size: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#top h3 {
+  font-size: 1.7em;
+  color: #00FF00;
+}
+
+#main {
+  padding: 100px 20%;
+  width: 60%;
+  float: left;
+  text-align: center;
+  background-color: #FAEBD7;
+  font-size: 1em;
+  margin-bottom: 2px;
+  background-image: url(https://yt3.ggpht.com/a/AATXAJwJ7YgySSv5BV2vduopfVEMoEJl0geX-hEKVsCw8w=s900-c-k-c0xffffffff-no-rj-mo);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #0000FF;
+  background-attachment: fixed;
+  border-top: 3px solid #fafafa;
+  color: #fafafa;
+  border-bottom: 3px solid #fafafa;
+}
+
+#main span {
+  font-size: 1.7em;
+  font-family:  'Otomanopee One', serif;
+}
+
+#main h2 {
+  font-size: 3em;
+}
+
+#main h5 {
+  font-size: 1.7em;
+}
+
+#overview {
+  padding: 20px 20%;
+  width: 60%;
+  text-align: center;
+  border-top: 3px solid #fafafa;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10 px;
+
+}
+
+#overview h2 {
+  font-size: 3em;
+}
+
+#overview h4 {
+  font-size: 1.5em;
+}
+
+#now {
+  padding: 30px 30%;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#vidos {
+  padding-top: 10px;
+  padding-bottom: 1px;
+}
+
+
+#Contactss {
+  margin-top: 180px;
+  text-align: center;
+  padding: 200px;
+  background-image: url();
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-blend-mode: multiply;
+  border-bottom: 3px solid #fafafa;
+}
+
+#Contactss h5 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 6em;
+  color: #fafafa;
+}
+
+#Contactss span {
+
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3em;
+  color: #fafafa;
+}
+
+#abme {
+  text-align: center;
+  padding: 200px;
+  background-image: url(https://geekhacker.ru/wp-content/uploads/2019/06/obuchenie-programmirovaniju-s-nulja.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #0000FF;
+  background-blend-mode: multiply;
+  border-top: 3px solid #fafafa;
+
+}
+
+#abme h10 {
+  font-size: 4em;
+  color: #F5FFFA;
+  background-image:
+}
+
+#abme {
+  font-size: 2.5em;
+  color: #00FF7F;
+}
+
+#abme h13 {
+  color: #FFD700;
+
+}
+
+#abme h13 {
+  color: #FFD700;
+
+}
+
+#abme h12 {
+  color: #FF4500;
+}
+
+#abme span {
+  color: #FFE4E1;
+}
+
+#abme h14 {
+  color: #FFD700;
+}
+
+
+a {
+  cursor: pointer;
+}
+
+#imag img {
+  background: #fafafa;
+  padding: 5px;
+  border: 2px solid #00FF00;
+  float: left;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  border-bottom: 2px solid #00FF00;
+
+}
+
+#imag .img {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  margin-top: 50px;
+  background-image: url();
+  background-size: cover;
+}
+
+#imag .img:nth-child(odd) {
+  margin-left: 18%;
+}
+
+#imag span {
+  position: center;
+  color: #fafafa;
+  font-size: 0.8em;
+
+}
+
+#imag {
+  border-bottom:  3px solid #fafafa;
+}
+
+
+#Contactss h30 {
+  border-top:  1px solid #fafafa;
+
+
+}
+
+
+.brdr {
+    border: 2px solid #fafafa;
+   }
+
+#block h25 {
+  color: #fafafa;
+}
+
+#prop {
+
+  float:left;
+  width: 100%;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+
+#imag {
+  background-blend-mode: multiply;
+  background-image: url(https://img-fotki.yandex.ru/get/478621/53930462.27d/0_c9344_4294f00e_orig);
+  background-size: cover;
+}
+
+#Contactss {
+  border-bottom: 8px solid #fafafa;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family:  'Otomanopee One', serif;
+}
+
+h10, h11, h12, h13, h14 {
+  font-family: 'Otomanopee One', serif;
+}
+
+#Contactss h38 {
+  font-family: 'Otomanopee One', serif;
+  text-align: center;
+  padding-top: 35px;
+  font-size: 3em;
+  color: #fafafa;
+}
+
+#about {
+  font-family:  'Otomanopee One', serif;
+}
+
+#abme span {
+}
+
+h50 {
+  font-family: 'Bebas Neue', cursive;
+  fo
+}
